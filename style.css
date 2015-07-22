@@ -7,19 +7,21 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background-image: url('http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg');
+  background-image: url('https://farm9.staticflickr.com/8027/7290324654_45295088e5_o_d.jpg');
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(255, 255, 255, 0.76);
   padding: 5px;
   border-radius: 10px;
+  overflow: auto;
 }
 
 .main-container h1 {
   text-align: center;
+  color: skyblue;
 }
 
 .text-box {
@@ -32,3 +34,15 @@ p{
   margin: 3px 0;
   font-size: 17px;
 }
+
+.date {
+  float: right;
+  clear: both;
+}
+
+.message {
+  width: 100%;
+  height: 25px;
+}
+
+
