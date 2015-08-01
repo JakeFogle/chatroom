@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html ng-app="chatroom">
   <head>
+    <title>DM Chat Room</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,10 +11,10 @@
    <div class="main-container">
       <h1> DevMountain Chat Room </h1>
 
-      <input class="filterText" ng-model="filter" placeholder="Search Messages"/>
+      <input class="filterText" ng-model="filter" placeholder="Search Messages..."/>
      
       <form ng-submit="postData(message)">
-        <input class="form-control text-box" type="text" ng-model="message" placeholder="Compose Message">
+        <input class="form-control text-box" type="text" ng-model="message" placeholder="Compose Message...">
         <hr>
       </form>
 
